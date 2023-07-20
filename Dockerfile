@@ -1,3 +1,3 @@
 FROM openjdk:17
-ADD target/compose-jar.jar compose-jar.jar
-ENTRYPOINT [ "java" , "-jar" ,"/compose-jar.jar" ]
+ADD target/WebRTC-0.0.1-SNAPSHOT.jar WebRTC-0.0.1-SNAPSHOT.jar
+ENTRYPOINT [ "java" , "-jar" ,"/WebRTC-0.0.1-SNAPSHOT.jar" ]
